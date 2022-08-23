@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">IT equipment</string>
+    <string name="title_activity_add_computer">AddComputerActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <array name="types_of_proccesors">
+        <item>Выбер модели процессора"</item>
+        <item>Добавить запись</item>
+        <item>core i7 - 9700F</item>
+        <item>core i5 - 9500</item>
+    </array>
+
+    <array name="types_of_memories_size">
+        <item>1 024 mb</item>
+        <item>2 048 mb</item>
+        <item>4 096 mb</item>
+        <item>8 192 mb</item>
+        <item>16 384 mb</item>
+        <item>32 768 mb</item>
+    </array>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
