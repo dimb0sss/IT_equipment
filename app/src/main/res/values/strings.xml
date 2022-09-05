@@ -7,13 +7,6 @@
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
-    <array name="types_of_proccesors">
-        <item>Выбер модели процессора"</item>
-        <item>Добавить запись</item>
-        <item>core i7 - 9700F</item>
-        <item>core i5 - 9500</item>
-    </array>
-
     <array name="types_of_memories_size">
         <item>1 024 mb</item>
         <item>2 048 mb</item>
@@ -25,4 +18,10 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="error_string_empty">Заполните поле</string>
+    <string name="pc_serial_number">Серийный номер</string>
+    <string name="pc_inventary_number">Инвентарный номер</string>
+    <string name="pc_configuration_text">Конфигурация системного блока</string>
+    <string name="processor_text">Процессор</string>
+    <string name="memory_size_text">Оперативная память</string>
 </resources>

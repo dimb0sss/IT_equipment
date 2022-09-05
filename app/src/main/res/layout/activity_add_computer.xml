@@ -9,7 +9,7 @@
 
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/editTextPcHostName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
@@ -19,14 +19,14 @@
         tools:text="Name PC" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewPcSerialNumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:text="Серийный номер" />
+        android:text="@string/pc_serial_number" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/editTextPcSerialNumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -35,14 +35,14 @@
         tools:text="Name" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textViewPcInventaryNumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:text="Инвентарный номер" />
+        android:text="@string/pc_inventary_number" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/editTextPcInventaryNumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -50,45 +50,43 @@
         tools:text="Name" />
 
     <TextView
-        android:id="@+id/textViewConfiguration"
+        android:id="@+id/textViewPcConfiguration"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:text="Конфигурация системного блока"
+        android:text="@string/pc_configuration_text"
         android:textColor="@color/purple_500"
         android:textSize="20sp" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textViewPcProcessor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:text="Процессор" />
+        android:text="@string/processor_text" />
 
     <Spinner
-        android:id="@+id/spinnerProccesor"
+        android:id="@+id/spinnerPcProcessor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:entries="@array/types_of_proccesors"
         android:inputType="textPersonName"
         tools:text="Процессор" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textViewPcMemorySize"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:text="Оперативная память" />
+        android:text="@string/memory_size_text" />
 
     <Spinner
-        android:id="@+id/editTextTextPersonName5"
+        android:id="@+id/editTextPcMemorySize"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:entries="@array/types_of_memories_size"
-        android:inputType="textPersonName"
-        tools:text="Оперативная память" />
+        android:inputType="textPersonName"/>
 
 
 </LinearLayout>
